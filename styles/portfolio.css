@@ -1,0 +1,76 @@
+/* common shared styles */
+body{
+
+  // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+}
+
+body{
+    
+font-family: 'lato',sans-serif;
+
+  font-family: "Open Sans", sans-serif;
+ 
+
+}
+.btn-primary{
+  border-radius: 5px;
+  background-color: orange;
+  border: none;
+ font-size: 20px;
+ color: white;
+ padding: 16 35;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+.nav-title{
+  font-size: 45px;
+  font-weight: 800;
+   color: 1E1E1E;
+}
+.text-primary{
+  color:orange;
+}
+nav > ul{
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+  color: black;
+}
+nav a{
+text-decoration: none;
+}
+nav > ul > li> .port{
+  color: black;
+}
+  color: black;
+  /* header related styles */
+.header{
+  background-color: bisque;
+}
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic{
+  width: 500px;
+}
