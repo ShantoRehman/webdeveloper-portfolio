@@ -7,10 +7,10 @@ body{
 .open-sans-<uniquifier> {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+ 
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+   
 }
 
 
@@ -24,7 +24,7 @@ font-family: 'lato',sans-serif;
 }
 .btn-primary{
   border-radius: 5px;
-  background-color: orange;
+  background-color:#FD6E0A ;
   border: none;
  font-size: 20px;
  color: white;
@@ -44,7 +44,7 @@ nav{
    color: 1E1E1E;
 }
 .text-primary{
-  color:orange;
+  color:#FD6E0A;
 }
 nav > ul{
   display: flex;
@@ -70,7 +70,7 @@ nav > ul > li> .port{
     max-width: 400px;
   }
 .banner{
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
   background-image: url('../images/header_bg.png');
@@ -192,7 +192,23 @@ footer{
   gap: 100px;
 }
 
+.socile-link a{
+  margin-right: 25px;
+}
+
 .footer-column{
   width: 50%;
+}
+
+.contact input,textarea{
+  display: block;
+  margin-bottom: 25px;
+  padding: 15px 30px;
+  border: 0px;
+  width: 100%;
+  
+}
+.text{
+  padding-bottom: 60px;
 }
 
